@@ -10,6 +10,7 @@ import java.util.List;
 public class ItemsTest {
     @Test
     public void findAll() throws Exception{
+        System.out.println("tianjia");
         ItemsDao itemsDao = new ItemsDaoImpl();
         List<Items> list = itemsDao.findAll();
         for(Items items:list){
